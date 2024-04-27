@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<ScrollPane layoutX="14.0" fx:controller="com.uni.calendarfx.control.MonthViewController" layoutY="77.0" prefHeight="505.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+	<content>
+		<FlowPane fx:id="monthView" prefHeight="499.0" prefWidth="771.0" />
+	</content>
+</ScrollPane>
